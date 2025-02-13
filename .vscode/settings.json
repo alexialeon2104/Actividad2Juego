@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Actividad 2 Juego.sln"
+    "dotnet.defaultSolution": "Actividad2Juego.sln"
 }
