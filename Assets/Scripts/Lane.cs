@@ -18,7 +18,7 @@ public class Lane : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+    
     }
 
     public void SetTimeStamps(Melanchall.DryWetMidi.Interaction.Note[] array)
@@ -75,10 +75,10 @@ public class Lane : MonoBehaviour
     }  
     private void Hit()
     {
-
+        ScoreManager.Hit();
     }
     private void Miss()
     {
-
+        ScoreManager.Miss();
     }
 }
